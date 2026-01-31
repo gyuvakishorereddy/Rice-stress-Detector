@@ -3,9 +3,9 @@
 -- =====================================================
 
 -- CREATE DATABASE AND SELECT IT
-DROP DATABASE IF EXISTS rice_disease;
-CREATE DATABASE rice_disease;
-USE rice_disease;
+DROP DATABASE IF EXISTS rice;
+CREATE DATABASE rice;
+USE rice;
 
 -- 1. USERS TABLE (Base table for all users)
 CREATE TABLE IF NOT EXISTS users (
