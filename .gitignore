@@ -7,17 +7,40 @@ __pycache__/
 *.pdb
 *.egg
 *.eggs
-*.env
-.env/
+.env
 venv/
+.venv/
 ENV/
 env/
 *.env
-*.venv
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+
+# Flask Session and Cache
+flask_session/
+*.session
+
+# Test files and temporary files
+test_*.py
+*_test.py
+temp_*.py
+debug_*.py
+create_*.py
+add_sample_*.py
+
+# Documentation and guide files
+*.txt
+!requirements.txt
+!README.txt
+flowchart.*
+*.guide
+*.instructions
+
+# Batch files
+*.bat
+*.cmd
 
 # VS Code
 .vscode/
