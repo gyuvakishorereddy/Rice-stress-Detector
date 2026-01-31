@@ -2,7 +2,7 @@
 -- Check Registered Users in Rice Disease Database
 -- =====================================================
 
-USE rice_disease;
+USE rice;
 
 -- Show all registered users with their details
 SELECT 
