@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def create_database():
-    """Create rice_disease database and initialize tables"""
+    """Create rice database and initialize tables"""
     
     try:
         # Connect without specifying database
@@ -21,7 +21,7 @@ def create_database():
         cursor = connection.cursor()
         
         # Create database
-        database_name = os.getenv('DB_NAME', 'rice_disease')
+        database_name = os.getenv('DB_NAME', 'rice')
         cursor.execute(f"CREATE DATABASE IF NOT EXISTS {database_name}")
         print(f"✓ Database '{database_name}' created or already exists")
         
