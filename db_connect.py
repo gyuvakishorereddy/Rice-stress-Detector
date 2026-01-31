@@ -22,7 +22,7 @@ class DatabaseConnection:
         self.host = host or os.getenv('DB_HOST', '127.0.0.1')
         self.user = user or os.getenv('DB_USER', 'root')
         self.password = password or os.getenv('DB_PASSWORD', 'Kishore@276')
-        self.database = database or os.getenv('DB_NAME', 'rice_disease')
+        self.database = database or os.getenv('DB_NAME', 'rice')
         self.port = int(os.getenv('DB_PORT', 3306))
         self.connection = None
         self.cursor = None
