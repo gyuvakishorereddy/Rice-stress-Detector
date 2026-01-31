@@ -15,7 +15,7 @@
 -- - All gene expression analysis data
 -- =====================================================
 
-USE rice_disease;
+USE rice;
 
 -- Disable foreign key checks temporarily for clean deletion
 SET FOREIGN_KEY_CHECKS = 0;
