@@ -64,4 +64,3 @@ Open `website/index.html` in your browser.
 
 ---
 
-**Status**: Ready for use
