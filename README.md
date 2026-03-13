@@ -64,3 +64,4 @@ Open `website/index.html` in your browser.
 
 ---
 
+For the latest updates and issues, visit the project repository. contact me for any queries.
